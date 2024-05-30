@@ -21,31 +21,6 @@ const D3Map = () => {
         }, {});
 
         let tooltipTimeout: any; // To store the timeout ID
-        let tooltipElements: any[] = []; // Store tooltip elements for removal
-
-        const removeTooltip = () => {
-            tooltipElements.forEach(element => element.remove());
-            tooltipElements = [];
-            clearTimeout(tooltipTimeout);
-        };
-
-        const removeOneTooltip = (id: string) => {
-            const tooltipGroup = svg.select(`.tooltip-${id}`);
-            if (tooltipGroup) {
-                // Find the index of the tooltip element from the end of the array
-                const index = tooltipElements
-                    .map(element => element.attr("class"))
-                    .lastIndexOf(`tooltip-${id}`);
-                if (index !== -1) {
-                    // Iterate over the elements to remove them from the DOM
-                    for (let i = tooltipElements.length - 1; i >= index; i--) {
-                        tooltipElements[i].remove();
-                    }
-                    // Remove the elements from the array
-                    tooltipElements.splice(index, tooltipElements.length - index);
-                }
-            }
-        }
 
         const addTooltip = (parentGroup: any, event: any, d: Feature) => {
             // Show tooltip for country name
