@@ -1,7 +1,7 @@
-import React, { useRef, useEffect } from 'react';
+import React, {useRef, useEffect, useState} from 'react';
 import * as d3 from 'd3';
-import { GeoPath, GeoPermissibleObjects } from 'd3';
-import FOR_VIEW from '../api/FOR_VIEW.json';
+import {GeoPath, GeoPermissibleObjects} from 'd3';
+import {fetchData, getById} from "../api/api";
 
 interface Feature {
     type: string;
@@ -10,25 +10,25 @@ interface Feature {
     neighbors: string[];
     name: string;
 }
+
 const D3Map = () => {
+    const [data, setData] = useState<Feature[]>([]); // State to hold fetched data
     const svgRef = useRef<SVGSVGElement | null>(null);
 
     useEffect(() => {
-        // Create a lookup map from the namesAndIds data
-        const dataMap = FOR_VIEW.features.reduce((acc: Record<string, Feature>, { type, name, geometry, id, neighbors }: Feature) => {
-            acc[id] = { id, name, neighbors, type, geometry};
-            return acc;
-        }, {});
+        fetchData().then((value) => setData(value));
+    }, []); // Empty dependency array ensures useEffect runs only once on mount
 
+    useEffect(() => {
         let tooltipTimeout: any; // To store the timeout ID
 
-        const addTooltip = (parentGroup: any, event: any, d: Feature) => {
+        const addTooltip = async (parentGroup: any, event: any, d: Feature) => {
             // Show tooltip for country name
             if (!d) {
                 return;
             }
             const [x, y] = d3.pointer(event);
-            const dataMapData = dataMap[d.id];
+            const dataMapData = await getById(d.id)
             const padding = 10;
             const name = dataMapData.name;
             const neighbors = dataMapData.neighbors;
@@ -63,23 +63,23 @@ const D3Map = () => {
                 .style("pointer-events", "none");
 
             Object.values(neighbors).forEach((neighbor, index) => {
-                if (dataMap[neighbor]) {
-                    tooltipNestedParent.append("text")
-                        .attr("class", `tooltip-tag`)
-                        .attr("x", x + padding * 2)
-                        .attr("y", y + (padding * (index + 1)))
-                        .style("font-size", "14px")
-                        .style("fill", "black")
-                        .text(`${dataMap[neighbor].name}`)
-                        .on("mousemove", function (event: any) {
-                            clearTimeout(tooltipTimeout); // Prevent tooltip from closing
-                            tooltipTimeout = setTimeout(() => {
-                                tooltipNestedParent.selectAll(".tooltip-nested-parent").remove();
-                                addTooltip(tooltipNestedParent, event, dataMap[neighbor]);
-                            }, 1000);
-                        });
-                } else {
-                    console.error(neighbor);
+                if (typeof neighbor === "string") {
+                    getById(neighbor).then((data) => {
+                        tooltipNestedParent.append("text")
+                            .attr("class", `tooltip-tag`)
+                            .attr("x", x + padding * 2)
+                            .attr("y", y + (padding * (index + 1)))
+                            .style("font-size", "14px")
+                            .style("fill", "black")
+                            .text(`${data.name}`)
+                            .on("mousemove", function (event: any) {
+                                clearTimeout(tooltipTimeout); // Prevent tooltip from closing
+                                tooltipTimeout = setTimeout(() => {
+                                    tooltipNestedParent.selectAll(".tooltip-nested-parent").remove();
+                                    addTooltip(tooltipNestedParent, event, data);
+                                }, 1000);
+                            });
+                    });
                 }
             });
 
@@ -98,12 +98,13 @@ const D3Map = () => {
 
         // Remove any existing paths before appending new ones
         svg.selectAll('path').remove();
+        svg.selectAll('g').remove();
 
         // Append a new group element to hold the map
         const mapGroup = svg.append("g");
 
         mapGroup.selectAll("path")
-            .data(FOR_VIEW.features)
+            .data(data)
             .enter().append("path")
             .attr("fill", "#69b3a2")
             .attr("d", path as any)  // Type assertion to handle the typing issue
@@ -130,11 +131,17 @@ const D3Map = () => {
                         });
                     addTooltip(tooltipRoot, event, d);
                 }, 1000);
+            })
+            .on("mouseleave", function (event: any) {
+                clearTimeout(tooltipTimeout);
+                tooltipTimeout = setTimeout(() => {
+                    svg.selectAll(".tooltip-root").remove();
+                }, 500);
             });
-    }, []);
+    }, [data]);
 
     return (
-        <svg ref={svgRef} style={{ width: '100vw', height: '100vh' }}></svg>
+        <svg ref={svgRef} style={{width: '100vw', height: '100vh'}}></svg>
     );
 };
 
