@@ -1,46 +1,90 @@
-# Getting Started with Create React App
+# D3 Map Visualization - Worldmap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application that visualizes geographic data using D3.js. It features an interactive map where users can hover over countries to view additional information and their neighboring countries using nested tooltips.
 
-## Available Scripts
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Dependencies](#dependencies)
+- [Scripts](#scripts)
 
-In the project directory, you can run:
+## Features
+- Interactive map visualization using D3.js.
+- Tooltips displaying country names and their neighbors.
+- Nested tooltips
+- Zoom and pan functionality.
+- Data fetching from a local server.
 
-### `npm start`
+## Installation
+Follow these steps to set up the project locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone the repository:
+   
+   `git clone https://github.com/NenadPetkovicSW/nested-tooltips-world-map.git`
+   
+   `cd nested-tooltips-world-map`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Install the dependencies:
+   
+   `npm install`
 
-### `npm test`
+3. Start the local server:
+   
+   `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Usage
+After starting the development server, open your browser and navigate to `http://localhost:4001` to view the interactive map.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## File Structure
+The project's file structure is organized as follows:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<pre>
+worldmap/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── api/
+│   │   └── api.ts      # API functions to fetch data
+│   ├── components/
+│   │   └── D3Map.tsx   # Main D3 map component
+│   ├── hooks/
+│   │   └── useFetchData.ts  # Custom hook for data fetching
+│   ├── types/
+│   │   └── Feature.ts  # TypeScript interface for Feature
+│   ├── utils/
+│   │   └── constants.ts    # Constants used in the project
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── ...
+├── .gitignore
+├── package.json
+├── README.md
+├── tsconfig.json
+├── .env
+└── ...
+</pre>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Key Components
+- **D3Map.tsx**: Contains the main D3 map visualization logic.
+- **useFetchData.ts**: Custom hook for fetching data.
+- **Feature.ts**: TypeScript interface for geographic features.
+- **constants.ts**: Contains constants used across the project.
+- **api.ts**: API functions for data fetching.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Dependencies
+- `react`: 18.3.1
+- `react-dom`: 18.3.1
+- `d3`: 7.9.0
+- `typescript`: 4.9.5
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Scripts
+- `npm start`: Starts the development server.
+- `npm build`: Builds the application for production.
+- `npm test`: Runs the test suite.
+- `npm eject`: Ejects the Create React App configuration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
