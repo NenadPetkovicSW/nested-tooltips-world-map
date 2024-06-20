@@ -1,0 +1,14 @@
+export const TOOLTIP_PADDING = 10;
+export const TOOLTIP_TEXT_SIZE = 14;
+export const TOOLTIP_FONT_WEIGHT = "bold";
+export const TOOLTIP_FILL_COLOR = "black";
+export const TOOLTIP_BACKGROUND_FILL = "white";
+export const TOOLTIP_BACKGROUND_STROKE = "#666";
+export const TOOLTIP_BACKGROUND_STROKE_WIDTH = 1;
+export const TOOLTIP_BACKGROUND_OPACITY = 1;
+export const TOOLTIP_BORDER_RADIUS = 5;
+export const COUNTRY_FILL_COLOR = "#69b3a2";
+export const COUNTRY_STROKE_COLOR = "#fff";
+export const MOUSEMOVE_TOOLTIP_DELAY = 1000;
+export const MOUSELEAVE_TOOLTIP_DELAY = 500;
+export const WINDOW_SCALE_FACTOR = 5.2;
