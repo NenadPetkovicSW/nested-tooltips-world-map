@@ -58,4 +58,14 @@ export class FeaturesService {
         const features = await this.featureModel.find().exec();
         return features;
     }
+
+    /**
+     * Retrieves multiple features by their IDs.
+     * @param {string[]} ids - Array of IDs of the features to retrieve.
+     * @returns {Promise<Feature[]>} Promise that resolves to an array of Feature objects.
+     */
+    async getMultipleFeatures(ids: string[]): Promise<Feature[]> {
+        const features = await this.featureModel.find({ id: { $in: ids } }).exec();
+        return features;
+    }
 }

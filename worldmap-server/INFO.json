@@ -1,0 +1,1138 @@
+{
+  "additionalInfos": [
+    {
+      "id": "AFG",
+      "area": 652230,
+      "population": 38928346,
+      "capital": "Kabul"
+    },
+    {
+      "id": "AGO",
+      "area": 1246700,
+      "population": 32866272,
+      "capital": "Luanda"
+    },
+    {
+      "id": "ALB",
+      "area": 28748,
+      "population": 2877797,
+      "capital": "Tirana"
+    },
+    {
+      "id": "ARE",
+      "area": 83600,
+      "population": 9890400,
+      "capital": "Abu Dhabi"
+    },
+    {
+      "id": "ARG",
+      "area": 2780400,
+      "population": 45195777,
+      "capital": "Buenos Aires"
+    },
+    {
+      "id": "ARM",
+      "area": 29743,
+      "population": 2963243,
+      "capital": "Yerevan"
+    },
+    {
+      "id": "ATA",
+      "area": 14000000,
+      "population": 1000,
+      "capital": "None"
+    },
+    {
+      "id": "ATF",
+      "area": 7747,
+      "population": 0,
+      "capital": "None"
+    },
+    {
+      "id": "AUS",
+      "area": 7692024,
+      "population": 25499884,
+      "capital": "Canberra"
+    },
+    {
+      "id": "AUT",
+      "area": 83871,
+      "population": 9006398,
+      "capital": "Vienna"
+    },
+    {
+      "id": "AZE",
+      "area": 86600,
+      "population": 10139177,
+      "capital": "Baku"
+    },
+    {
+      "id": "BDI",
+      "area": 27834,
+      "population": 11890784,
+      "capital": "Bujumbura"
+    },
+    {
+      "id": "BEL",
+      "area": 30528,
+      "population": 11589623,
+      "capital": "Brussels"
+    },
+    {
+      "id": "BEN",
+      "area": 112622,
+      "population": 12123200,
+      "capital": "Porto-Novo"
+    },
+    {
+      "id": "BFA",
+      "area": 274200,
+      "population": 20903273,
+      "capital": "Ouagadougou"
+    },
+    {
+      "id": "BGD",
+      "area": 147570,
+      "population": 164689383,
+      "capital": "Dhaka"
+    },
+    {
+      "id": "BGR",
+      "area": 110879,
+      "population": 6948445,
+      "capital": "Sofia"
+    },
+    {
+      "id": "BHS",
+      "area": 13878,
+      "population": 393244,
+      "capital": "Nassau"
+    },
+    {
+      "id": "BIH",
+      "area": 51197,
+      "population": 3280819,
+      "capital": "Sarajevo"
+    },
+    {
+      "id": "BLR",
+      "area": 207600,
+      "population": 9449323,
+      "capital": "Minsk"
+    },
+    {
+      "id": "BLZ",
+      "area": 22966,
+      "population": 397621,
+      "capital": "Belmopan"
+    },
+    {
+      "id": "BOL",
+      "area": 1098581,
+      "population": 11673029,
+      "capital": "Sucre"
+    },
+    {
+      "id": "BRA",
+      "area": 8515767,
+      "population": 212559417,
+      "capital": "Brasília"
+    },
+    {
+      "id": "BRN",
+      "area": 5765,
+      "population": 437479,
+      "capital": "Bandar Seri Begawan"
+    },
+    {
+      "id": "BTN",
+      "area": 38394,
+      "population": 771608,
+      "capital": "Thimphu"
+    },
+    {
+      "id": "BWA",
+      "area": 581730,
+      "population": 2351627,
+      "capital": "Gaborone"
+    },
+    {
+      "id": "CAF",
+      "area": 622984,
+      "population": 4829767,
+      "capital": "Bangui"
+    },
+    {
+      "id": "CAN",
+      "area": 9984670,
+      "population": 37742154,
+      "capital": "Ottawa"
+    },
+    {
+      "id": "CHE",
+      "area": 41284,
+      "population": 8654622,
+      "capital": "Bern"
+    },
+    {
+      "id": "CHL",
+      "area": 756102,
+      "population": 19116201,
+      "capital": "Santiago"
+    },
+    {
+      "id": "CHN",
+      "area": 9596960,
+      "population": 1439323776,
+      "capital": "Beijing"
+    },
+    {
+      "id": "CIV",
+      "area": 322463,
+      "population": 26378274,
+      "capital": "Yamoussoukro"
+    },
+    {
+      "id": "CMR",
+      "area": 475442,
+      "population": 26545863,
+      "capital": "Yaoundé"
+    },
+    {
+      "id": "COD",
+      "area": 2344858,
+      "population": 89561403,
+      "capital": "Kinshasa"
+    },
+    {
+      "id": "COG",
+      "area": 342000,
+      "population": 5518087,
+      "capital": "Brazzaville"
+    },
+    {
+      "id": "COL",
+      "area": 1141748,
+      "population": 50882891,
+      "capital": "Bogotá"
+    },
+    {
+      "id": "CRI",
+      "area": 51100,
+      "population": 5094118,
+      "capital": "San José"
+    },
+    {
+      "id": "CUB",
+      "area": 110860,
+      "population": 11326616,
+      "capital": "Havana"
+    },
+    {
+      "id": "CYP",
+      "area": 9251,
+      "population": 1207359,
+      "capital": "Nicosia"
+    },
+    {
+      "id": "CZE",
+      "area": 78865,
+      "population": 10708981,
+      "capital": "Prague"
+    },
+    {
+      "id": "DEU",
+      "area": 357022,
+      "population": 83783942,
+      "capital": "Berlin"
+    },
+    {
+      "id": "DJI",
+      "area": 23200,
+      "population": 988000,
+      "capital": "Djibouti"
+    },
+    {
+      "id": "DNK",
+      "area": 43094,
+      "population": 5792202,
+      "capital": "Copenhagen"
+    },
+    {
+      "id": "DOM",
+      "area": 48671,
+      "population": 10847910,
+      "capital": "Santo Domingo"
+    },
+    {
+      "id": "DZA",
+      "area": 2381741,
+      "population": 43851044,
+      "capital": "Algiers"
+    },
+    {
+      "id": "ECU",
+      "area": 276841,
+      "population": 17643060,
+      "capital": "Quito"
+    },
+    {
+      "id": "EGY",
+      "area": 1002450,
+      "population": 102334404,
+      "capital": "Cairo"
+    },
+    {
+      "id": "ERI",
+      "area": 117600,
+      "population": 3546421,
+      "capital": "Asmara"
+    },
+    {
+      "id": "ESP",
+      "area": 505992,
+      "population": 46754778,
+      "capital": "Madrid"
+    },
+    {
+      "id": "EST",
+      "area": 45227,
+      "population": 1326535,
+      "capital": "Tallinn"
+    },
+    {
+      "id": "ETH",
+      "area": 1104300,
+      "population": 114963588,
+      "capital": "Addis Ababa"
+    },
+    {
+      "id": "FIN",
+      "area": 338424,
+      "population": 5540720,
+      "capital": "Helsinki"
+    },
+    {
+      "id": "FJI",
+      "area": 18333,
+      "population": 896445,
+      "capital": "Suva"
+    },
+    {
+      "id": "FLK",
+      "area": 12173,
+      "population": 3198,
+      "capital": "Stanley"
+    },
+    {
+      "id": "FRA",
+      "area": 551695,
+      "population": 65273511,
+      "capital": "Paris"
+    },
+    {
+      "id": "GAB",
+      "area": 267668,
+      "population": 2225734,
+      "capital": "Libreville"
+    },
+    {
+      "id": "GBR",
+      "area": 242900,
+      "population": 67886011,
+      "capital": "London"
+    },
+    {
+      "id": "GEO",
+      "area": 69700,
+      "population": 3989167,
+      "capital": "Tbilisi"
+    },
+    {
+      "id": "GHA",
+      "area": 238533,
+      "population": 31072940,
+      "capital": "Accra"
+    },
+    {
+      "id": "GIN",
+      "area": 245857,
+      "population": 13132795,
+      "capital": "Conakry"
+    },
+    {
+      "id": "GMB",
+      "area": 11295,
+      "population": 2416668,
+      "capital": "Banjul"
+    },
+    {
+      "id": "GNB",
+      "area": 36125,
+      "population": 1968001,
+      "capital": "Bissau"
+    },
+    {
+      "id": "GNQ",
+      "area": 28051,
+      "population": 1402985,
+      "capital": "Malabo"
+    },
+    {
+      "id": "GRC",
+      "area": 131990,
+      "population": 10423054,
+      "capital": "Athens"
+    },
+    {
+      "id": "GRD",
+      "area": 344,
+      "population": 112523,
+      "capital": "St. George's"
+    },
+    {
+      "id": "GRL",
+      "area": 2166086,
+      "population": 56770,
+      "capital": "Nuuk"
+    },
+    {
+      "id": "GTM",
+      "area": 108889,
+      "population": 17915568,
+      "capital": "Guatemala City"
+    },
+    {
+      "id": "GUY",
+      "area": 214969,
+      "population": 786552,
+      "capital": "Georgetown"
+    },
+    {
+      "id": "HKG",
+      "area": 1104,
+      "population": 7496981,
+      "capital": "Hong Kong"
+    },
+    {
+      "id": "HND",
+      "area": 112492,
+      "population": 9904607,
+      "capital": "Tegucigalpa"
+    },
+    {
+      "id": "HRV",
+      "area": 56594,
+      "population": 4105267,
+      "capital": "Zagreb"
+    },
+    {
+      "id": "HTI",
+      "area": 27750,
+      "population": 11402533,
+      "capital": "Port-au-Prince"
+    },
+    {
+      "id": "HUN",
+      "area": 93028,
+      "population": 9660351,
+      "capital": "Budapest"
+    },
+    {
+      "id": "IDN",
+      "area": 1904569,
+      "population": 273523615,
+      "capital": "Jakarta"
+    },
+    {
+      "id": "IND",
+      "area": 3287263,
+      "population": 1380004385,
+      "capital": "New Delhi"
+    },
+    {
+      "id": "IRL",
+      "area": 70273,
+      "population": 4937786,
+      "capital": "Dublin"
+    },
+    {
+      "id": "IRN",
+      "area": 1648195,
+      "population": 83992949,
+      "capital": "Tehran"
+    },
+    {
+      "id": "IRQ",
+      "area": 438317,
+      "population": 40222493,
+      "capital": "Baghdad"
+    },
+    {
+      "id": "ISL",
+      "area": 103000,
+      "population": 341243,
+      "capital": "Reykjavik"
+    },
+    {
+      "id": "ISR",
+      "area": 20770,
+      "population": 8655535,
+      "capital": "Jerusalem"
+    },
+    {
+      "id": "ITA",
+      "area": 301340,
+      "population": 60461826,
+      "capital": "Rome"
+    },
+    {
+      "id": "JAM",
+      "area": 10991,
+      "population": 2961167,
+      "capital": "Kingston"
+    },
+    {
+      "id": "JOR",
+      "area": 89342,
+      "population": 10203140,
+      "capital": "Amman"
+    },
+    {
+      "id": "JPN",
+      "area": 377915,
+      "population": 126476461,
+      "capital": "Tokyo"
+    },
+    {
+      "id": "KAZ",
+      "area": 2724900,
+      "population": 18776707,
+      "capital": "Nur-Sultan"
+    },
+    {
+      "id": "KEN",
+      "area": 580367,
+      "population": 53771296,
+      "capital": "Nairobi"
+    },
+    {
+      "id": "KGZ",
+      "area": 199951,
+      "population": 6524195,
+      "capital": "Bishkek"
+    },
+    {
+      "id": "KHM",
+      "area": 181035,
+      "population": 16718971,
+      "capital": "Phnom Penh"
+    },
+    {
+      "id": "KIR",
+      "area": 811,
+      "population": 119449,
+      "capital": "Tarawa"
+    },
+    {
+      "id": "KNA",
+      "area": 261,
+      "population": 53199,
+      "capital": "Basseterre"
+    },
+    {
+      "id": "KOR",
+      "area": 100210,
+      "population": 51269185,
+      "capital": "Seoul"
+    },
+    {
+      "id": "KWT",
+      "area": 17818,
+      "population": 4270571,
+      "capital": "Kuwait City"
+    },
+    {
+      "id": "LAO",
+      "area": 236800,
+      "population": 7275560,
+      "capital": "Vientiane"
+    },
+    {
+      "id": "LBN",
+      "area": 10452,
+      "population": 6825445,
+      "capital": "Beirut"
+    },
+    {
+      "id": "LBR",
+      "area": 111369,
+      "population": 5057681,
+      "capital": "Monrovia"
+    },
+    {
+      "id": "LBY",
+      "area": 1759540,
+      "population": 6871292,
+      "capital": "Tripoli"
+    },
+    {
+      "id": "LCA",
+      "area": 616,
+      "population": 183627,
+      "capital": "Castries"
+    },
+    {
+      "id": "LIE",
+      "area": 160,
+      "population": 38128,
+      "capital": "Vaduz"
+    },
+    {
+      "id": "LKA",
+      "area": 65610,
+      "population": 21413249,
+      "capital": "Colombo"
+    },
+    {
+      "id": "LSO",
+      "area": 30355,
+      "population": 2142249,
+      "capital": "Maseru"
+    },
+    {
+      "id": "LTU",
+      "area": 65300,
+      "population": 2722289,
+      "capital": "Vilnius"
+    },
+    {
+      "id": "LUX",
+      "area": 2586,
+      "population": 625978,
+      "capital": "Luxembourg"
+    },
+    {
+      "id": "LVA",
+      "area": 64589,
+      "population": 1886198,
+      "capital": "Riga"
+    },
+    {
+      "id": "MAC",
+      "area": 30,
+      "population": 649335,
+      "capital": "Macao"
+    },
+    {
+      "id": "MAF",
+      "area": 53,
+      "population": 38694,
+      "capital": "Marigot"
+    },
+    {
+      "id": "MAR",
+      "area": 446550,
+      "population": 36910560,
+      "capital": "Rabat"
+    },
+    {
+      "id": "MCO",
+      "area": 2,
+      "population": 39242,
+      "capital": "Monaco"
+    },
+    {
+      "id": "MDA",
+      "area": 33846,
+      "population": 2657637,
+      "capital": "Chișinău"
+    },
+    {
+      "id": "MDG",
+      "area": 587041,
+      "population": 27691018,
+      "capital": "Antananarivo"
+    },
+    {
+      "id": "MDV",
+      "area": 300,
+      "population": 540542,
+      "capital": "Malé"
+    },
+    {
+      "id": "MEX",
+      "area": 1964375,
+      "population": 128932753,
+      "capital": "Mexico City"
+    },
+    {
+      "id": "MHL",
+      "area": 181,
+      "population": 59190,
+      "capital": "Majuro"
+    },
+    {
+      "id": "MKD",
+      "area": 25713,
+      "population": 2083459,
+      "capital": "Skopje"
+    },
+    {
+      "id": "MLI",
+      "area": 1240192,
+      "population": 20250833,
+      "capital": "Bamako"
+    },
+    {
+      "id": "MLT",
+      "area": 316,
+      "population": 441543,
+      "capital": "Valletta"
+    },
+    {
+      "id": "MMR",
+      "area": 676578,
+      "population": 54409800,
+      "capital": "Naypyidaw"
+    },
+    {
+      "id": "MNE",
+      "area": 13812,
+      "population": 622359,
+      "capital": "Podgorica"
+    },
+    {
+      "id": "MNG",
+      "area": 1564116,
+      "population": 3278290,
+      "capital": "Ulaanbaatar"
+    },
+    {
+      "id": "MNP",
+      "area": 464,
+      "population": 57617,
+      "capital": "Saipan"
+    },
+    {
+      "id": "MOZ",
+      "area": 801590,
+      "population": 31255435,
+      "capital": "Maputo"
+    },
+    {
+      "id": "MRT",
+      "area": 1030700,
+      "population": 4649658,
+      "capital": "Nouakchott"
+    },
+    {
+      "id": "MUS",
+      "area": 2040,
+      "population": 1271768,
+      "capital": "Port Louis"
+    },
+    {
+      "id": "MWI",
+      "area": 118484,
+      "population": 19129955,
+      "capital": "Lilongwe"
+    },
+    {
+      "id": "MYS",
+      "area": 330803,
+      "population": 32365999,
+      "capital": "Kuala Lumpur"
+    },
+    {
+      "id": "NAM",
+      "area": 825615,
+      "population": 2540905,
+      "capital": "Windhoek"
+    },
+    {
+      "id": "NCL",
+      "area": 18575,
+      "population": 285498,
+      "capital": "Nouméa"
+    },
+    {
+      "id": "NER",
+      "area": 1267000,
+      "population": 24206644,
+      "capital": "Niamey"
+    },
+    {
+      "id": "NGA",
+      "area": 923768,
+      "population": 206139589,
+      "capital": "Abuja"
+    },
+    {
+      "id": "NIC",
+      "area": 130373,
+      "population": 6624554,
+      "capital": "Managua"
+    },
+    {
+      "id": "NLD",
+      "area": 41850,
+      "population": 17134872,
+      "capital": "Amsterdam"
+    },
+    {
+      "id": "NOR",
+      "area": 323802,
+      "population": 5421241,
+      "capital": "Oslo"
+    },
+    {
+      "id": "NPL",
+      "area": 147181,
+      "population": 29136808,
+      "capital": "Kathmandu"
+    },
+    {
+      "id": "NZL",
+      "area": 270467,
+      "population": 4822233,
+      "capital": "Wellington"
+    },
+    {
+      "id": "OMN",
+      "area": 309500,
+      "population": 5106622,
+      "capital": "Muscat"
+    },
+    {
+      "id": "PAK",
+      "area": 881912,
+      "population": 220892331,
+      "capital": "Islamabad"
+    },
+    {
+      "id": "PAN",
+      "area": 75417,
+      "population": 4314767,
+      "capital": "Panama City"
+    },
+    {
+      "id": "PER",
+      "area": 1285216,
+      "population": 32971854,
+      "capital": "Lima"
+    },
+    {
+      "id": "PHL",
+      "area": 342353,
+      "population": 109581078,
+      "capital": "Manila"
+    },
+    {
+      "id": "PNG",
+      "area": 462840,
+      "population": 8947024,
+      "capital": "Port Moresby"
+    },
+    {
+      "id": "POL",
+      "area": 312685,
+      "population": 38386000,
+      "capital": "Warsaw"
+    },
+    {
+      "id": "PRI",
+      "area": 9104,
+      "population": 3193694,
+      "capital": "San Juan"
+    },
+    {
+      "id": "PRK",
+      "area": 120538,
+      "population": 25778816,
+      "capital": "Pyongyang"
+    },
+    {
+      "id": "PRT",
+      "area": 92090,
+      "population": 10196709,
+      "capital": "Lisbon"
+    },
+    {
+      "id": "PRY",
+      "area": 406752,
+      "population": 7132530,
+      "capital": "Asunción"
+    },
+    {
+      "id": "QAT",
+      "area": 11586,
+      "population": 2881053,
+      "capital": "Doha"
+    },
+    {
+      "id": "ROU",
+      "area": 238397,
+      "population": 19237691,
+      "capital": "Bucharest"
+    },
+    {
+      "id": "RUS",
+      "area": 17098242,
+      "population": 145934462,
+      "capital": "Moscow"
+    },
+    {
+      "id": "RWA",
+      "area": 26338,
+      "population": 12952218,
+      "capital": "Kigali"
+    },
+    {
+      "id": "ESH",
+      "area": 266000,
+      "population": 597330,
+      "capital": "El Aaiún"
+    },
+    {
+      "id": "SAU",
+      "area": 2149690,
+      "population": 34813871,
+      "capital": "Riyadh"
+    },
+    {
+      "id": "SDN",
+      "area": 1861484,
+      "population": 43849260,
+      "capital": "Khartoum"
+    },
+    {
+      "id": "SDS",
+      "area": 619745,
+      "population": 11193725,
+      "capital": "Juba"
+    },
+    {
+      "id": "SEN",
+      "area": 196722,
+      "population": 16743927,
+      "capital": "Dakar"
+    },
+    {
+      "id": "SLB",
+      "area": 28896,
+      "population": 686884,
+      "capital": "Honiara"
+    },
+    {
+      "id": "SLE",
+      "area": 71740,
+      "population": 7976983,
+      "capital": "Freetown"
+    },
+    {
+      "id": "SLV",
+      "area": 21041,
+      "population": 6486205,
+      "capital": "San Salvador"
+    },
+    {
+      "id": "ABV",
+      "area": 637657,
+      "population": 15893222,
+      "capital": "Mogadishu"
+    },
+    {
+      "id": "SOM",
+      "area": 637657,
+      "population": 15893222,
+      "capital": "Mogadishu"
+    },
+    {
+      "id": "SRB",
+      "area": 77474,
+      "population": 8737371,
+      "capital": "Belgrade"
+    },
+    {
+      "id": "SUR",
+      "area": 163820,
+      "population": 586632,
+      "capital": "Paramaribo"
+    },
+    {
+      "id": "SVK",
+      "area": 49037,
+      "population": 5456362,
+      "capital": "Bratislava"
+    },
+    {
+      "id": "SVN",
+      "area": 20273,
+      "population": 2078938,
+      "capital": "Ljubljana"
+    },
+    {
+      "id": "SWE",
+      "area": 450295,
+      "population": 10099265,
+      "capital": "Stockholm"
+    },
+    {
+      "id": "SWZ",
+      "area": 17364,
+      "population": 1160164,
+      "capital": "Lobamba"
+    },
+    {
+      "id": "SYR",
+      "area": 185180,
+      "population": 17500657,
+      "capital": "Damascus"
+    },
+    {
+      "id": "TCD",
+      "area": 1284000,
+      "population": 16425864,
+      "capital": "N'Djamena"
+    },
+    {
+      "id": "TGO",
+      "area": 56785,
+      "population": 8278724,
+      "capital": "Lomé"
+    },
+    {
+      "id": "THA",
+      "area": 513120,
+      "population": 69799978,
+      "capital": "Bangkok"
+    },
+    {
+      "id": "TJK",
+      "area": 143100,
+      "population": 9537645,
+      "capital": "Dushanbe"
+    },
+    {
+      "id": "TKM",
+      "area": 488100,
+      "population": 6031187,
+      "capital": "Ashgabat"
+    },
+    {
+      "id": "TLS",
+      "area": 14874,
+      "population": 1318445,
+      "capital": "Dili"
+    },
+    {
+      "id": "TTO",
+      "area": 5130,
+      "population": 1399488,
+      "capital": "Port of Spain"
+    },
+    {
+      "id": "TUN",
+      "area": 163610,
+      "population": 11818619,
+      "capital": "Tunis"
+    },
+    {
+      "id": "TUR",
+      "area": 783562,
+      "population": 84339067,
+      "capital": "Ankara"
+    },
+    {
+      "id": "TWN",
+      "area": 36193,
+      "population": 23780452,
+      "capital": "Taipei"
+    },
+    {
+      "id": "TZA",
+      "area": 945087,
+      "population": 59734218,
+      "capital": "Dodoma"
+    },
+    {
+      "id": "UGA",
+      "area": 241038,
+      "population": 45741007,
+      "capital": "Kampala"
+    },
+    {
+      "id": "UKR",
+      "area": 603500,
+      "population": 43733762,
+      "capital": "Kyiv"
+    },
+    {
+      "id": "URY",
+      "area": 181034,
+      "population": 3473730,
+      "capital": "Montevideo"
+    },
+    {
+      "id": "USA",
+      "area": 9372610,
+      "population": 331002651,
+      "capital": "Washington, D.C."
+    },
+    {
+      "id": "UZB",
+      "area": 447400,
+      "population": 33469203,
+      "capital": "Tashkent"
+    },
+    {
+      "id": "VEN",
+      "area": 916445,
+      "population": 28435940,
+      "capital": "Caracas"
+    },
+    {
+      "id": "VNM",
+      "area": 331212,
+      "population": 97338579,
+      "capital": "Hanoi"
+    },
+    {
+      "id": "VUT",
+      "area": 12189,
+      "population": 307145,
+      "capital": "Port Vila"
+    },
+    {
+      "id": "PSE",
+      "area": 6020,
+      "population": 4569087,
+      "capital": "Ramallah"
+    },
+    {
+      "id": "YEM",
+      "area": 527968,
+      "population": 29825968,
+      "capital": "Sana'a"
+    },
+    {
+      "id": "ZAF",
+      "area": 1221037,
+      "population": 59308690,
+      "capital": "Pretoria"
+    },
+    {
+      "id": "ZMB",
+      "area": 752612,
+      "population": 18383955,
+      "capital": "Lusaka"
+    },
+    {
+      "id": "ZWE",
+      "area": 390757,
+      "population": 14862924,
+      "capital": "Harare"
+    }
+  ]
+}

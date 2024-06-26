@@ -14,6 +14,16 @@ html, body, #root {
   height: 100%;
 }
 
+.tooltip-underline {
+  text-decoration: underline;
+  fill: rgba(0, 0, 0, 0.3); /* Adjust the fill color as needed */
+}
+
+.tooltip-bold {
+  font-weight: bold;
+  fill: #000;
+}
+
 .tooltip {
   position: absolute;
   text-align: center;
