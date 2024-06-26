@@ -8,7 +8,39 @@ import {AdditionalInfo} from "../schema/additionalInfo.schema";
 @Injectable()
 export class AdditionalInfoService {
     constructor(@InjectModel('AdditionalInfo') private readonly additionalInfoModel: Model<AdditionalInfo>) {}
+    /**
+     * Imports data from a JSON file into the 'AdditionalInfo' collection if the collection is empty.
+     * @returns {Promise<void>} Promise that resolves when data import is complete.
+     */
+    async importDataIfEmpty(): Promise<void> {
+        const count = await this.additionalInfoModel.countDocuments().exec();
+        if (count > 0) {
+            console.log('Data already exists in the collection. Import not needed.');
+            return;
+        }
 
+        const filePath = path.join(__dirname, '../../../INFO.json');
+        console.log(`Reading data from: ${filePath}`);
+
+        try {
+            // Read file content
+            const fileContent = fs.readFileSync(filePath, 'utf-8');
+            console.log('File content read successfully.');
+
+            // Parse JSON content
+            const jsonData = JSON.parse(fileContent);
+            console.log('JSON parsed successfully.');
+
+            const data = jsonData.additionalInfos;
+
+            // Insert data into MongoDB
+            await this.additionalInfoModel.insertMany(data);
+            console.log('Data imported successfully.');
+        } catch (error) {
+            console.error('Error during data import:', error);
+        }
+    }
+    
     /**
      * Imports data from a JSON file into the 'AdditionalInfo' collection.
      * @returns {Promise<void>} Promise that resolves when data import is complete.
