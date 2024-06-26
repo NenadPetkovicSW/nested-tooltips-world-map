@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
-import { fetchData } from '../api/api';
+import * as FeatureApi from "../api/featureApi";
 import { Feature } from '../types/Feature';
 /**
  * Custom hook to fetch data.
  * @returns {Object} An object containing the fetched data, loading status, and any error encountered.
  */
-const useFetchData = () => {
+const useFetchFeatureData = () => {
     const [data, setData] = useState<Feature[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
@@ -13,7 +13,7 @@ const useFetchData = () => {
     useEffect(() => {
         const loadData = async () => {
             try {
-                const fetchedData = await fetchData();
+                const fetchedData = await FeatureApi.fetchData();
                 setData(fetchedData);
             } catch (err) {
                 setError('Error fetching data');
@@ -27,4 +27,4 @@ const useFetchData = () => {
     return { data, loading, error };
 };
 
-export default useFetchData;
+export default useFetchFeatureData;
