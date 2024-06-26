@@ -26,6 +26,6 @@ Used for communication with Worldmap
 ### Running the Application
 - Start the development server:
   
-    `npm run start`
+    `npm start`
 
 
