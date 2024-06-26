@@ -1,4 +1,4 @@
-import { Controller, Get, Param, Post } from '@nestjs/common';
+import {Body, Controller, Get, Param, Post} from '@nestjs/common';
 import { FeaturesService } from '../service/features.service';
 import { Feature } from "../schema/feature.schema";
 
@@ -34,4 +34,15 @@ export class FeaturesController {
     async getAllFeatures(): Promise<Feature[]> {
         return this.featuresService.getAllFeatures();
     }
+
+    /**
+     * Retrieves multiple features by their IDs.
+     * @param {string[]} ids - Array of IDs of the features to retrieve.
+     * @returns {Promise<Feature[]>} Promise that resolves to an array of Feature objects.
+     */
+    @Post('multiple')
+    async getMultipleFeatures(@Body() ids: string[]): Promise<Feature[]> {
+        return this.featuresService.getMultipleFeatures(ids);
+    }
+
 }

@@ -10,11 +10,11 @@ import { FeatureSchema } from '../schema/feature.schema';
     MongooseModule.forFeature([{ name: 'Feature', schema: FeatureSchema }])
   ],
   providers: [
-    // Declare FeaturesService as a provider
+    // Declare AdditionalInfoService as a provider
     FeaturesService
   ],
   controllers: [
-    // Declare FeaturesController as a controller
+    // Declare AdditionalInfoController as a controller
     FeaturesController
   ]
 })

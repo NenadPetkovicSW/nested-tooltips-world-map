@@ -20,6 +20,34 @@ export const getById = async (id: string) => {
 };
 
 /**
+ * Fetches data for multiple features by their IDs.
+ * @param {string[]} ids - Array of feature IDs to fetch.
+ * @returns {Promise<Array<object>>} The data for the specified features.
+ * @throws Will throw an error if the network request fails.
+ */
+export const fetchMultipleByIds = async (ids: string[]) => {
+    try {
+        const response = await fetch(`${API_BASE_URL}/features/multiple`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(ids)
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        const json = await response.json();
+        return json; // Array of fetched data for each ID
+    } catch (error) {
+        console.error('Error fetching multiple features:', error);
+        throw error; // Re-throw the error to handle it in the UI or caller
+    }
+};
+
+/**
  * Fetches data for all features.
  * @returns {Promise<Array<object>>} The data for all features.
  * @throws Will throw an error if the network request fails.

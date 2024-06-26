@@ -48,11 +48,11 @@ worldmap/
 │   └── ...
 ├── src/
 │   ├── api/
-│   │   └── api.ts      # API functions to fetch data
+│   │   └── featureApi.ts      # API functions to fetch data
 │   ├── components/
 │   │   └── D3Map.tsx   # Main D3 map component
 │   ├── hooks/
-│   │   └── useFetchData.ts  # Custom hook for data fetching
+│   │   └── useFetchFeatureData.ts  # Custom hook for data fetching
 │   ├── types/
 │   │   └── Feature.ts  # TypeScript interface for Feature
 │   ├── utils/
@@ -71,10 +71,10 @@ worldmap/
 
 ### Key Components
 - **D3Map.tsx**: Contains the main D3 map visualization logic.
-- **useFetchData.ts**: Custom hook for fetching data.
+- **useFetchFeatureData.ts**: Custom hook for fetching data.
 - **Feature.ts**: TypeScript interface for geographic features.
 - **constants.ts**: Contains constants used across the project.
-- **api.ts**: API functions for data fetching.
+- **featureApi.ts**: API functions for data fetching.
 
 ## Dependencies
 - `react`: 18.3.1
